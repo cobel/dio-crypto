@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 public interface MBService {
 
-    @RequestMapping(method = RequestMethod.GET, value = "/BTC/ticker/")
+    @RequestMapping(method = RequestMethod.GET, value = "BTC/ticker/")
     Moeda retornaMoeda();
 
 }
